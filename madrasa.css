@@ -1,0 +1,772 @@
+<!-- card -->  
+body {
+  color: #333;
+  font-family: &quot;Raleway&quot;, Arial, Helvetica, serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  background: url(https://josetxu.com/img/fondo_blanco.png) repeat 0 0 #fff;
+}
+
+.cardBox {
+  float: right;
+  font-size: 1.2em;
+  margin: 1% 0 0 1%;
+  perspective: 800px;
+  transition: all 0.3s ease 0s;
+  width: 32.3%;
+}
+
+.cardBox:hover .card-1 {
+  transform: rotateY( 180deg);
+}
+
+.card-1 {
+  background: url(https://1.bp.blogspot.com/-7cV489sA9zg/X6VfDFByHTI/AAAAAAAACpA/O9QnA_r03zUWqVK0mmu_kyEtem1Nc6jkwCLcBGAsYHQ/s320/kisspng.png) no-repeat 0 0 #6495ed;
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  box-shadow: 0 2px 5px rgba(23,23,23,.33);
+  border-radius: 10px;
+  border: 0;
+}
+
+.card-1 .front,
+.card-1 .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(23,23,23,.33);
+  border-radius: 10px;
+  border: 0;
+}
+
+.card-1 .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.card-1 .back {
+  transform: rotateY( 180deg);
+}
+
+.card-1 .back a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.card-1 .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBox:nth-child(1) .card-1 .back {
+  background: cornflowerblue;
+}
+
+ 
+  
+  
+  
+  
+  
+.cardBox:hover .card-2 {
+  transform: rotateY( 180deg);
+}
+
+.card-2 {
+  background: url(https://1.bp.blogspot.com/-JeFHJluNhEs/X6Vpgi3UuLI/AAAAAAAACp0/aSWHEEBX9_EpsoyMvys-n9dwzyv-T6d1ACLcBGAsYHQ/s320/kisspng-teacher.png) no-repeat 0 0 #ffa500;
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  box-shadow: 0 2px 5px rgba(23,23,23,.33);
+  border-radius: 10px;
+  border: 0;
+}
+
+.card-2 .front,
+.card-2 .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(23,23,23,.33);
+  border-radius: 10px;
+  border: 0;
+}
+
+.card-2 .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.card-2 .back {
+  transform: rotateY( 180deg);
+}
+
+.card-2 .back a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.card-2 .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBox:nth-child(2) .card-2 .back {
+  background: orange;
+}  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+.cardBox:hover .card-3 {
+  transform: rotateY( 180deg);
+}
+
+.card-3 {
+  background: url(https://1.bp.blogspot.com/--iX1U-Z_sKw/X6Vwm9kWz5I/AAAAAAAACrg/A8O6FNmiGHEXYABOvoI0MSPjgCESDSN7QCLcBGAsYHQ/s320/kisspng-stock.png) no-repeat 0 0 #9acd32;
+  cursor: default;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease 0s;
+  width: 100%;
+  -webkit-animation: giro 1s 1;
+  animation: giro 1s 1;
+  box-shadow: 0 2px 5px rgba(23,23,23,.33);
+  border-radius: 10px;
+  border: 0;
+}
+
+.card-3 .front,
+.card-3 .back {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  color: white;
+  display: block;
+  font-size: 1.2em;
+  height: 100%;
+  padding: 0.8em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(23,23,23,.33);
+  border-radius: 10px;
+  border: 0;
+}
+
+.card-3 .front strong {
+  background: #fff;
+  border-radius: 100%;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 30px;
+  padding: 0 7px 4px 6px;
+}
+
+.card-3 .back {
+  transform: rotateY( 180deg);
+}
+
+.card-3 .back a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 1px;
+  font-size: 0.9em;
+  transition: all 0.2s ease 0s;
+}
+
+.card-3 .back a:hover {
+  background: #fff;
+  color: #333;
+  text-shadow: 0 0 1px #333;
+}
+
+.cardBox:nth-child(3) .card-3 .back {
+  background: yellowgreen;
+}    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+.cardBox:nth-child(2) .card-2 {
+  -webkit-animation: giro 1.5s 1;
+  animation: giro 1.5s 1;
+}
+
+.cardBox:nth-child(3) .card-3 {
+  -webkit-animation: giro 2s 1;
+  animation: giro 2s 1;
+}
+
+@-webkit-keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@keyframes giro {
+  from {
+    transform: rotateY( 180deg);
+  }
+  to {
+    transform: rotateY( 0deg);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%;
+  }
+  .card-1 {
+    height: 285px;
+  }
+  .card-2 {
+    height: 285px;
+  }
+  .card-3 {
+    height: 285px;
+  }
+  .cardBox:last-child {
+    margin-bottom: 3%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%;
+  }
+  .card-1 {
+    height: 260px;
+  }
+  .card-2 {
+    height: 260px;
+  }
+  .card-3 {
+    height: 260px;
+  }
+}
+
+  
+  
+  
+  
+  
+  
+  
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #ff0000;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+.header-courses-categ {
+      margin: 0 auto;
+  }
+
+  .h-c-icon:hover {
+	  animation: animation 1000ms linear both !important;
+  }
+@keyframes animation { 
+  0% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  2.2% { transform: matrix3d(0.94, 0, 0, 0, 0, 0.94, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.3% { transform: matrix3d(0.865, 0, 0, 0, 0, 0.865, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.51% { transform: matrix3d(0.807, 0, 0, 0, 0, 0.807, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  8.61% { transform: matrix3d(0.789, 0, 0, 0, 0, 0.789, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  11.01% { transform: matrix3d(0.806, 0, 0, 0, 0, 0.806, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  13.41% { transform: matrix3d(0.839, 0, 0, 0, 0, 0.839, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  15.82% { transform: matrix3d(0.865, 0, 0, 0, 0, 0.865, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  18.22% { transform: matrix3d(0.874, 0, 0, 0, 0, 0.874, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  23.02% { transform: matrix3d(0.854, 0, 0, 0, 0, 0.854, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  27.73% { transform: matrix3d(0.841, 0, 0, 0, 0, 0.841, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  37.24% { transform: matrix3d(0.854, 0, 0, 0, 0, 0.854, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  46.75% { transform: matrix3d(0.849, 0, 0, 0, 0, 0.849, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  56.36% { transform: matrix3d(0.851, 0, 0, 0, 0, 0.851, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  65.87% { transform: matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  75.38% { transform: matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  84.88% { transform: matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  94.49% { transform: matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { transform: matrix3d(0.85, 0, 0, 0, 0, 0.85, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+@keyframes animation2 { 
+  0% { transform: matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  4.2% { transform: matrix3d(0.98, 0, 0, 0, 0, 0.98, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  6.31% { transform: matrix3d(1.039, 0, 0, 0, 0, 1.039, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  8.31% { transform: matrix3d(1.055, 0, 0, 0, 0, 1.055, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  13.11% { transform: matrix3d(1.011, 0, 0, 0, 0, 1.011, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  15.52% { transform: matrix3d(0.992, 0, 0, 0, 0, 0.992, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  17.82% { transform: matrix3d(0.986, 0, 0, 0, 0, 0.986, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  27.33% { transform: matrix3d(1.004, 0, 0, 0, 0, 1.004, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  36.84% { transform: matrix3d(0.999, 0, 0, 0, 0, 0.999, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  46.45% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  55.96% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  65.47% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  74.97% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  84.58% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  94.09% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
+  100% { transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
+}
+
+
+  .h-c-icon p {
+      font-family: &#39;Poppins&#39;, sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 10px 0 0 0;
+  }
+
+  .header-courses-categ .h-c-icon {
+      width: 171px;
+      height: 185px;;
+      float: right;
+      background-color: #fff;
+      margin: 0 5px;
+      padding: 15px 0;
+      border-radius: 15px;
+      text-align: center;
+      transition: all .3s;
+	  animation: animation2 1000ms linear both;
+      margin-bottom: 20px;
+  }
+
+.header-courses-categ .h-c-icon img {
+	  opacity: 0;
+	  transition: all .3s ease-in;
+  }
+
+  .intro-header-p {
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      direction: rtl;
+      font-family: &#39;Changa&#39;, sans-serif;
+  }
+
+  .intro-header {
+      width: 100%;
+      height: 350px;
+      clear: both;
+      background-color: #3366ff;
+      background-image: url(https://3.bp.blogspot.com/-WkhFiH0hXXU/W1I3oMkJHHI/AAAAAAAAFqs/ktVQXQz5Dgo0xBfSL9ZlAT1A_txKkJuBgCLcBGAs/s1600/header-bg.png);
+      background-repeat: repeat repeat;
+      overflow: hidden;
+	  transition: all .3s ease-in-out;
+  }
+
+  .solo-categ ul li p {
+      float: right;
+      width: 210px;
+      padding: 0 10px;
+      text-align: right;
+      direction: rtl;
+      font-size: 16px;
+      font-family: &#39;Changa&#39;, sans-serif;
+  }
+
+  .solo-categ ul li img {
+      width: 110px;
+      height: 110px;
+      float: right;
+  }
+
+  .solo-categ ul li:hover {
+      opacity: 1;
+  }
+
+  .solo-categ ul li {
+      width: 330px;
+      height: 120px;
+      margin: 10px auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 5px;
+      overflow: hidden;
+      border-radius: 4px;
+      opacity: .9;
+      transition: all .2s ease-in-out;
+	  position: relative;
+  }
+
+.solo-categ ul li a {
+	  color: #fff;
+  }
+
+  .solo-categ ul li:first-child {
+      margin: 30px auto 0 auto;
+  }
+
+  .solo-categ-heading p {
+      padding: 0 0 0 90px;
+      font-size: 25px;
+      color: #fff;
+      line-height: 60px;
+      font-family: &#39;Poppins&#39;, sans-serif;
+	  text-align: left;
+  }
+
+  .solo-categ-heading img {
+      position: absolute;
+      top: -17px;
+      left: -15px;
+  }
+
+  .solo-categ-heading {
+      position: relative;
+      width: 100%;
+      height: 60px;
+      background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .ai-categ {
+      background: rgba(102,51,51,1);
+      background: -moz-linear-gradient(left, rgba(47, 69, 66) 0%, rgba(56, 229, 200) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(47, 69, 66)), color-stop(100%, rgba(56, 229, 200)));
+      background: -webkit-linear-gradient(left, rgba(47, 69, 66) 0%, rgba(56, 229, 200) 100%);
+      background: -o-linear-gradient(left, rgba(47, 69, 66) 0%, rgba(56, 229, 200) 100%);
+      background: -ms-linear-gradient(left, rgba(47, 69, 66) 0%, rgba(56, 229, 200) 100%);
+      background: linear-gradient(to right, rgba(47, 69, 66) 0%, rgba(56, 229, 200) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#2f4542&#39;, endColorstr=&#39;#38e5c8&#39;, GradientType=1 );
+  }   
+
+  .au-categ {
+      background: rgba(0,153,102,1);
+      background: -moz-linear-gradient(left, rgba72, 105, 67) 0%, rgba(71, 223, 100) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba72, 105, 67)), color-stop(100%, rgba(71, 223, 100)));
+      background: -webkit-linear-gradient(left, rgba(72, 105, 67) 0%, rgba(71, 223, 100) 100%);
+      background: -o-linear-gradient(left, rgba(72, 105, 67) 0%, rgba(71, 223, 100) 100%);
+      background: -ms-linear-gradient(left, rgba(72, 105, 67) 0%, rgba(71, 223, 100) 100%);
+      background: linear-gradient(to right, rgba(72, 105, 67) 0%, rgba(71, 223, 100) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#486943&#39;, endColorstr=&#39;#47df64&#39;, GradientType=1 );
+  }
+
+  .others-categ {
+      background: rgba(51,51,51,1);
+      background: -moz-linear-gradient(left, rgba(51,51,51,1) 0%, rgba(153,153,153,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(51,51,51,1)), color-stop(100%, rgba(153,153,153,1)));
+      background: -webkit-linear-gradient(left, rgba(51,51,51,1) 0%, rgba(153,153,153,1) 100%);
+      background: -o-linear-gradient(left, rgba(51,51,51,1) 0%, rgba(153,153,153,1) 100%);
+      background: -ms-linear-gradient(left, rgba(51,51,51,1) 0%, rgba(153,153,153,1) 100%);
+      background: linear-gradient(to right, rgba(51,51,51,1) 0%, rgba(153,153,153,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#333333&#39;, endColorstr=&#39;#999999&#39;, GradientType=1 );
+  }
+
+  .pr-categ {
+      background: rgba(73,27,122,1);
+      background: -moz-linear-gradient(left, rgba(73,27,122,1) 0%, rgba(190,75,216,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,27,122,1)), color-stop(100%, rgba(190,75,216,1)));
+      background: -webkit-linear-gradient(left, rgba(73,27,122,1) 0%, rgba(190,75,216,1) 100%);
+      background: -o-linear-gradient(left, rgba(73,27,122,1) 0%, rgba(190,75,216,1) 100%);
+      background: -ms-linear-gradient(left, rgba(73,27,122,1) 0%, rgba(190,75,216,1) 100%);
+      background: linear-gradient(to right, rgba(73,27,122,1) 0%, rgba(190,75,216,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#491b7a&#39;, endColorstr=&#39;#be4bd8&#39;, GradientType=1 );
+  }
+
+  .ae-categ {
+      background: rgba(77,30,125,1);
+      background: -moz-linear-gradient(left, rgba(77,30,125,1) 0%, rgba(122,194,245,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,30,125,1)), color-stop(100%, rgba(122,194,245,1)));
+      background: -webkit-linear-gradient(left, rgba(77,30,125,1) 0%, rgba(122,194,245,1) 100%);
+      background: -o-linear-gradient(left, rgba(77,30,125,1) 0%, rgba(122,194,245,1) 100%);
+      background: -ms-linear-gradient(left, rgba(77,30,125,1) 0%, rgba(122,194,245,1) 100%);
+      background: linear-gradient(to right, rgba(77,30,125,1) 0%, rgba(122,194,245,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#4d1e7d&#39;, endColorstr=&#39;#7ac2f5&#39;, GradientType=1 );
+  }
+
+  .ps-categ {
+      background: rgba(5,54,144,1);
+      background: -moz-linear-gradient(left, rgba(5,54,144,1) 0%, rgba(25,206,251,1) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(5,54,144,1)), color-stop(100%, rgba(25,206,251,1)));
+      background: -webkit-linear-gradient(left, rgba(5,54,144,1) 0%, rgba(25,206,251,1) 100%);
+      background: -o-linear-gradient(left, rgba(5,54,144,1) 0%, rgba(25,206,251,1) 100%);
+      background: -ms-linear-gradient(left, rgba(5,54,144,1) 0%, rgba(25,206,251,1) 100%);
+      background: linear-gradient(to right, rgba(5,54,144,1) 0%, rgba(25,206,251,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=&#39;#053690&#39;, endColorstr=&#39;#19cefb&#39;, GradientType=1 );
+  }
+
+  .solo-categ:last-child {
+      margin: 0;
+  }
+
+  .solo-categ {
+      width: 350px;
+      height: 550px;
+      float: right;
+      margin: 0 0 0 25px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+	  position: relative;
+  }
+
+  .multi-categ-cont {
+      width: 1100px;
+      height: 550px;
+      margin: 30px auto 0 auto;
+      clear: both;
+  }
+ /*=========================== [responsive] *===========================*/
+  /*[300px - 600px]*/
+@media all and (min-width:0px) and (max-width: 599px) {
+  .header-courses-categ .h-c-icon {
+      width: 285px !important;
+      height: 60px !important;
+      float: none !important;
+      padding: 5px !important;
+      border-radius: 0 !important;
+      margin: 5px 0 !important;
+  }
+
+  .header-courses-categ .h-c-icon img {
+      width: 50px;
+      height: 50px;
+      float: left;
+  }
+
+  .intro-header {
+      height: 470px !important;
+  }
+
+  .header-courses-categ {
+      width: 285px !important;
+  }
+
+  .multi-categ-cont {
+      width: 275px !important;
+      height: 1710px !important;
+  }
+
+  .solo-categ {
+      width: 275px !important;
+      height: 550px !important;
+      margin: 0 0 30px 0 !important;
+  }
+
+  .solo-categ-heading p {
+      font-size: 18px !important;
+  }
+
+  .solo-categ ul li {
+      width: 270px !important;
+  }
+
+  .solo-categ ul li p {
+      width: 150px !important;
+  }
+}
+
+  /*[600px - 800px]*/
+  @media all and (min-width:600px) and (max-width: 799px) {
+      .header-courses-categ {
+          width: 600px !important;
+          height: 110px !important;
+      }
+
+      .intro-header {
+          height: 300px !important;
+      }
+
+      .header-courses-categ .h-c-icon {
+          width: 100px !important;
+          height: 110px !important;
+          margin: 0 10px !important;
+      }
+
+      .header-courses-categ .h-c-icon img {
+          width: 50px;
+      }
+
+      .h-c-icon p {
+          font-size: 15px !important;
+      }
+  
+      .multi-categ-cont {
+          width: 97% !important;
+          height: 1710px !important;
+      }
+
+      .solo-categ {
+          width: 100% !important;
+          height: 550px !important;
+          margin: 0 0 30px 0 !important;
+      }
+
+      .solo-categ ul li {
+          width: 98% !important;
+      }
+
+      .solo-categ ul li p{
+          width: 400px !important;
+      }
+  }
+
+  /*[800px - 1000px]*/
+  @media all and (min-width:800px) and (max-width: 999px) {
+      .header-courses-categ {
+          width: 800px !important;
+      }
+
+      .header-courses-categ .h-c-icon {
+          width: 140px !important;
+          height: 155px !important;
+          margin: 0 10px !important;
+      }
+
+      .multi-categ-cont {
+          width: 750px !important;
+          height: 1710px !important;
+      }
+
+      .solo-categ ul li {
+          width: 98% !important;
+      }
+
+      .solo-categ {
+          width: 100% !important;
+          margin: 0 0 30px 0 !important;
+      }       
+
+      .solo-categ ul li p{
+          width: 400px !important;
+      }
+  }
+  /*[1000px - 1140px]*/
+  @media all and (min-width:1000px) and (max-width: 1140px) {
+      .solo-categ {
+          width: 305px !important;
+      }
+
+      .solo-categ ul li {
+          width: 290px !important;
+      }
+
+      .solo-categ-heading p {
+          font-size: 22px !important;
+      }
+  }
+
+  /*[1140px - infinite]*/
+  @media all and (min-width:1140px) {	 
+  }
